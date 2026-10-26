@@ -156,8 +156,10 @@ class Run:
         self.moviehub_result = movie
         self.write("moviehub_result.json", movie)
         playable = [r for r in self.reports if r.playable]
-        ours = {r.evidence.get("final_url_sha256") for r in playable} | {_sha(r.candidate.url) for r in playable}
-        matched = sum(1 for s in movie.get("sources", []) if s.get("url_sha256") in ours)
+        # Load-balanced hosts redirect the same file to different nodes, so match on the path tail too.
+        hashes = {r.evidence.get("final_url_sha256") for r in playable} | {_sha(r.candidate.url) for r in playable}
+        tails = {r.evidence.get("final_url_tail") for r in playable} - {None, ""}
+        matched = sum(1 for s in movie.get("sources", []) if s.get("url_sha256") in hashes or s.get("url_tail") in tails)
         self.step("moviehub_query", "ok" if movie.get("status") == "complete" else "failed",
                   mode=request.moviehub_mode, moviehub_status=movie.get("status"),
                   comparison=dict(analyser_playable=len(playable), moviehub_sources=len(movie.get("sources", [])),

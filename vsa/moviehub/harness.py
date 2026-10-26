@@ -37,6 +37,7 @@ budget = args.get("budget", 300)
 result = json.loads(vod.query_site(args["provider"], json.dumps(args["info"]), lambda: time.monotonic() - started > budget))
 for item in result.get("sources", []):
     item["url_sha256"] = hashlib.sha256(item["url"].encode()).hexdigest()
+    item["url_tail"] = "/".join(urlsplit(item["url"]).path.split("/")[-2:])  # stable across mirror nodes
     item["url"] = urlsplit(item["url"]).hostname  # host only: signed query strings stay out of evidence
     item["headers"] = sorted(item.get("headers", {}))  # header names only: values can be cookies
 print("VSA-RESULT " + json.dumps(result))

@@ -164,7 +164,8 @@ class Verifier:
         report.size = total
         report.evidence.update(range_supported=head.status == 206, content_type=head.content_type,
                                final_host=urlsplit(head.final_url).hostname,
-                               final_url_sha256=hashlib.sha256(head.final_url.encode()).hexdigest())
+                               final_url_sha256=hashlib.sha256(head.final_url.encode()).hexdigest(),
+                               final_url_tail="/".join(urlsplit(head.final_url).path.split("/")[-2:]))
         report.fingerprint["head_sha256"] = hashlib.sha256(head.body[:FINGERPRINT_BYTES]).hexdigest()
         if total:
             report.fingerprint["size"] = str(total)
@@ -176,7 +177,22 @@ class Verifier:
                 boxes = mp4.top_level_boxes(head.body, total)
                 names = [b[0] for b in boxes]
                 report.evidence["mp4_boxes"] = names[:20]
-                if "moov" not in names:
+                moov = next((b for b in boxes if b[0] == "moov"), None)
+                if moov is not None and moov[1] + moov[2] > len(head.body):
+                    # Index first but larger than the sample (common for long films): read the rest of
+                    # the index plus the first media bytes after it, so frames can also be decoded.
+                    if moov[2] > MAX_INDEX:
+                        raise RuntimeError(f"MP4 index of {moov[2]} bytes exceeds the {MAX_INDEX}-byte limit")
+                    if head.status != 206:
+                        raise RuntimeError("MP4 index exceeds the sample and the server ignores byte ranges")
+                    end = moov[1] + moov[2] + max(self.settings.head_bytes, HEAD_BYTES) - 1
+                    if total:
+                        end = min(end, total - 1)
+                    rest = self._fetch(candidate.url, candidate, report, "mp4 index remainder",
+                                       byte_range=(len(head.body), end), max_bytes=end - len(head.body) + 1)
+                    handle.write(rest.body)
+                    report.evidence["large_index_first"] = moov[2]
+                elif moov is None:
                     offset = mp4.next_box_offset(head.body)
                     if offset is None or (total and offset >= total):
                         raise RuntimeError("MP4 index (moov) not found in the sampled bytes")

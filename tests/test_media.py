@@ -7,7 +7,7 @@ from support.fixture_site import SLUG, FilmsSite, MirrorSite, build_media
 from vsa.contracts import MediaCandidate, MediaReport
 from vsa.dedup import group
 from vsa.http import EvidenceLog, Fetcher
-from vsa.media.verify import Verifier
+from vsa.media.verify import Verifier, VerifySettings
 
 
 @unittest.skipUnless(media_tools(), "ffmpeg/ffprobe not installed")
@@ -44,6 +44,14 @@ class VerifyTests(unittest.TestCase):
         self.assertEqual(report.height, 480)
         self.assertAlmostEqual(report.duration, 125, delta=1)
         self.assertEqual(len(self.site.requests) - before, 3)  # head, index header, index
+
+    def test_index_first_but_larger_than_the_sample_is_completed(self):
+        # Long films often carry a multi-megabyte index at the start; found in the live archive.org run.
+        small = Verifier(self.verifier.fetcher, VerifySettings(head_bytes=4096))
+        report = small.verify(MediaCandidate(url=self.site.base + f"/media/{SLUG}/720.mp4", kind="", site="fixture"))
+        self.assertEqual(report.status, "playable", report.errors)
+        self.assertGreater(report.evidence["large_index_first"], 4096)
+        self.assertGreater(report.decoded_frames, 0)
 
     def test_hls_master_reports_variants_and_decodes_a_segment(self):
         report = self.verify(f"/media/{SLUG}/master.m3u8")
