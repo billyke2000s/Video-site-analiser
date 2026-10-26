@@ -1,0 +1,97 @@
+[
+  {
+    "step": "analyse",
+    "status": "ok",
+    "time": 1793030492.764,
+    "plugin": "recipe:archive_org",
+    "search_interfaces": 1,
+    "media_on_page": 0
+  },
+  {
+    "step": "search",
+    "status": "ok",
+    "time": 1793030493.703,
+    "results": [
+      {
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "title": "Night of the Living Dead",
+        "url": "https://archive.org/metadata/Night.Of.The.Living.Dead_1080p",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "title": "Night of the Living Dead",
+        "url": "https://archive.org/metadata/night_of_the_living_dead_dvd",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "Night_Of_The_Living_Dead_raw_HD_WS",
+        "title": "Night Of The Living Dead",
+        "url": "https://archive.org/metadata/Night_Of_The_Living_Dead_raw_HD_WS",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "NightOfTheLivingDead-MPEG",
+        "title": "Night Of The Living Dead",
+        "url": "https://archive.org/metadata/NightOfTheLivingDead-MPEG",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "PhantasmagoriaTheater-NightOfTheLivingDead1968321",
+        "title": "Night of the Living Dead (1968)",
+        "url": "https://archive.org/metadata/PhantasmagoriaTheater-NightOfTheLivingDead1968321",
+        "year": "",
+        "extra": {}
+      }
+    ]
+  },
+  {
+    "step": "select",
+    "status": "ok",
+    "time": 1793030493.703,
+    "selected": [
+      "Night.Of.The.Living.Dead_1080p",
+      "night_of_the_living_dead_dvd",
+      "Night_Of_The_Living_Dead_raw_HD_WS",
+      "NightOfTheLivingDead-MPEG",
+      "PhantasmagoriaTheater-NightOfTheLivingDead1968321"
+    ]
+  },
+  {
+    "step": "discover",
+    "status": "ok",
+    "time": 1793030498.693,
+    "candidates": 25
+  },
+  {
+    "step": "verify",
+    "status": "ok",
+    "time": 1793030549.534,
+    "playable": 6,
+    "total": 25,
+    "distinct_media": 25,
+    "statuses": [
+      "failed",
+      "playable"
+    ]
+  },
+  {
+    "step": "generate",
+    "status": "ok",
+    "time": 1793030549.536,
+    "files": {
+      "adapter": "adapter/android-tv-launcher/app/src/main/python/moviehub_native/archive_org.py",
+      "record": "adapter/provider_record.json",
+      "recipe": "adapter/recipe.json"
+    }
+  }
+]
