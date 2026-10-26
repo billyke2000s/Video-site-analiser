@@ -1,0 +1,857 @@
+{
+  "status": "complete",
+  "sources": [
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 360,
+      "format": "stream",
+      "probeMbps": 3.2191968188433573,
+      "responseMs": 163,
+      "durationSeconds": 5753.462,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "360p",
+      "claimedQuality": "SD",
+      "info": "h.264 \u00b7 NightOfTheLivingDead.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "747c4f8a1719ab37c3c1fd6742655cffd39ec9b438df7213820af29e58b0b106",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4"
+    },
+    {
+      "url": "dn711006.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.6972649293467764,
+      "responseMs": 752,
+      "durationSeconds": 5752.803,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 NightOfTheLivingDead_1080p.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "897812b5f699c85338d08c038faa489402bbe6e052b92b75d9d3bfa3dfa6d21e",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 3.5486363211853456,
+      "responseMs": 148,
+      "durationSeconds": 5752.704,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_1080p_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "b26124ebad4f30bc41cafad1016095011c88a30c05d79789dcfe3b5ad652b54f",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p_512kb.mp4"
+    },
+    {
+      "url": "dn711006.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.7496410805646605,
+      "responseMs": 699,
+      "durationSeconds": 5752.803,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 NightOfTheLivingDead_720p.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "2002a0bc3f07095a6b7800cb0fe9a0340e6e680de7e2894ace774e02b2586c73",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 3.049580999329386,
+      "responseMs": 172,
+      "durationSeconds": 5752.704,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_720p_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "ac90d4843778e36cbf7cd98019864d6629ad48cd78e29cb27dc403428fe1c4d9",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p_512kb.mp4"
+    },
+    {
+      "url": "dn711006.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.7681427549053,
+      "responseMs": 683,
+      "durationSeconds": 5752.214,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 NightOfTheLivingDead_DVD5.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "3c64b77487742fc9220f809c9c84f81734b841035b540ef3ea109d8b4a6422d8",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 2.3520190412479742,
+      "responseMs": 223,
+      "durationSeconds": 5752.119,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_DVD5_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "3732b99b2b0bf88f17f4544fb8715df5d2958d7c0034377c015186798c257699",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5_512kb.mp4"
+    },
+    {
+      "url": "dn711006.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.7380125005851071,
+      "responseMs": 710,
+      "durationSeconds": 5752.247,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 NightOfTheLivingDead_DVD9.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "fe45cef38d01441da9fa50039d3b92a93296dcbd33c278e210b1c3fc8f4303af",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 2.752908764352313,
+      "responseMs": 190,
+      "durationSeconds": 5752.119,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_DVD9_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "904aa61d2156264908956fa2339c998d8c2657778e4d7a3af3ce8c7871e19255",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9_512kb.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 426,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 3.159959547732758,
+      "responseMs": 166,
+      "durationSeconds": 5752.811,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_PS3_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "50cebdfe4f6af6a79e09f4d0243393dc25fc58b04c99fd438bf84cbf10591153",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PS3_512kb.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 313,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 2.260113292249742,
+      "responseMs": 232,
+      "durationSeconds": 5752.811,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_PSP_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "2eeb237644637817bb4fc3311322b6caf3dc1edcf48c10a647e81adcc2f58157",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PSP_512kb.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 3.229981041247222,
+      "responseMs": 162,
+      "durationSeconds": 5752.811,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_iPhone_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "4b5aadf5d96662bdcb6ba6b59381e168997ef05f6abd8c70bd9565395d524b64",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPhone_512kb.mp4"
+    },
+    {
+      "url": "dn801208.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 2.2002646110619346,
+      "responseMs": 238,
+      "durationSeconds": 5752.811,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_iPod_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "1d6349795da988ab25a062d753a724bc1654d96ef3ef54828e78ffaa2bb36b8f",
+      "url_tail": "Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPod_512kb.mp4"
+    },
+    {
+      "url": "dn710704.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.8708348878842472,
+      "responseMs": 602,
+      "durationSeconds": 5731.832,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 Night.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "a978089fe3cbe14951520fc722e15133b36587bbc589eec047079ec72df8f186",
+      "url_tail": "night_of_the_living_dead_dvd/Night.mp4"
+    },
+    {
+      "url": "dn800308.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 2.5413122223266966,
+      "responseMs": 206,
+      "durationSeconds": 2519.887,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 VTS_01_1.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "79f7c3b9f96219a79d0e3fe98a3d973214382b0414cf0f375a2a2c7597332c75",
+      "url_tail": "night_of_the_living_dead_dvd/VTS_01_1.mp4"
+    },
+    {
+      "url": "dn710704.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 0.7865416714379971,
+      "responseMs": 667,
+      "durationSeconds": 2519.8865444444446,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 VTS_01_1_512Kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "5a36432cdf883b09c56832c51790676bda32344cbfe44f571b34abf3abed3b8d",
+      "url_tail": "night_of_the_living_dead_dvd/VTS_01_1_512Kb.mp4"
+    },
+    {
+      "url": "dn710704.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.8246639333011915,
+      "responseMs": 636,
+      "durationSeconds": 2535.536,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 VTS_01_2.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "30bb2f0f0a969ea25da63ab79fbefcddabbfbe86d6ef6fc2316ec136a77bec2d",
+      "url_tail": "night_of_the_living_dead_dvd/VTS_01_2.mp4"
+    },
+    {
+      "url": "dn710704.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 0.7473428911056191,
+      "responseMs": 702,
+      "durationSeconds": 2535.535533333333,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 VTS_01_2_512Kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "455ff5dbc246321afe6497212c7354e6c87cb36e17e83808cee1869be8637768",
+      "url_tail": "night_of_the_living_dead_dvd/VTS_01_2_512Kb.mp4"
+    },
+    {
+      "url": "dn710704.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.7981878531781685,
+      "responseMs": 657,
+      "durationSeconds": 661.762,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 VTS_01_3.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "9366065323d14d2daada85f52f36b51e5846e2e42af94334fa83e0f9e30e7f99",
+      "url_tail": "night_of_the_living_dead_dvd/VTS_01_3.mp4"
+    },
+    {
+      "url": "dn710704.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 0.8736035330769547,
+      "responseMs": 600,
+      "durationSeconds": 661.7617555555555,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 VTS_01_3_512Kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "50103b377a5b0dccaec3ce3e6fb93668cd802166891fa4433c2f21eac3a71e59",
+      "url_tail": "night_of_the_living_dead_dvd/VTS_01_3_512Kb.mp4"
+    },
+    {
+      "url": "dn711104.ca.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 640,
+      "videoHeight": 480,
+      "format": "stream",
+      "probeMbps": 0.7219657955595679,
+      "responseMs": 726,
+      "durationSeconds": 5744.973,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "480p",
+      "claimedQuality": "480p",
+      "info": "h.264 \u00b7 NightOfTheLivingDead.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "88a2a491f3de7f6af56bb5ac4f7f0b5b997ab54ecaad78085a41715b04b986da",
+      "url_tail": "NightOfTheLivingDead-MPEG/NightOfTheLivingDead.mp4"
+    },
+    {
+      "url": "dn600306.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 3.327656871132998,
+      "responseMs": 158,
+      "durationSeconds": 5744.979,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "ccc04bf8d5e79114be0c06b427e624fc8085d00833ca87c7e4bc45f063ca7faf",
+      "url_tail": "NightOfTheLivingDead-MPEG/NightOfTheLivingDead_512kb.mp4"
+    },
+    {
+      "url": "dn601201.us.archive.org",
+      "headers": [
+        "Referer",
+        "User-Agent"
+      ],
+      "qualityVerified": true,
+      "playlist": false,
+      "videoWidth": 320,
+      "videoHeight": 240,
+      "format": "stream",
+      "probeMbps": 2.5160201157984177,
+      "responseMs": 208,
+      "durationSeconds": 5740.5,
+      "provider": "native:archive_org",
+      "website": "archive.org",
+      "catalogue": "archive.org",
+      "sourceProvider": "archive.org",
+      "providerName": "archive.org \u00b7 archive.org",
+      "quality": "240p",
+      "claimedQuality": "SD",
+      "info": "512Kb MPEG4 \u00b7 PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4",
+      "title": "Night of the Living Dead",
+      "segmentContainers": false,
+      "boundedRanges": false,
+      "adapter": "native:archive_org",
+      "url_sha256": "97a29384df2bc6da13122b37ec24272ee351028bcc189acc8e8f09d8f2af79dd",
+      "url_tail": "PhantasmagoriaTheater-NightOfTheLivingDead1968321/PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4"
+    }
+  ],
+  "attempts": [
+    {
+      "adapter": "native:archive_org",
+      "status": "complete",
+      "stage": "media",
+      "extracted": 25,
+      "rejected": 2,
+      "resolutionErrors": 0,
+      "unsupportedHosts": 0,
+      "hostAttempts": [
+        {
+          "provider": "archive.org",
+          "status": "complete"
+        }
+      ],
+      "requests": [
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn711006.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn711006.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn711006.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn711006.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn801208.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn800308.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn710704.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn711104.ca.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn600306.us.archive.org",
+          "method": "GET",
+          "status": 206
+        },
+        {
+          "host": "dn601201.us.archive.org",
+          "method": "GET",
+          "status": 206
+        }
+      ]
+    }
+  ],
+  "extracted": 25,
+  "rejected": 2,
+  "resolutionErrors": 0,
+  "unsupportedHosts": 0,
+  "hostAttempts": [
+    {
+      "provider": "archive.org",
+      "status": "complete"
+    }
+  ],
+  "stage": "media"
+}
