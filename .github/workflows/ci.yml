@@ -39,6 +39,8 @@ jobs:
     # Contacts archive.org: run on demand and on pushes to main only.
     if: github.event_name == 'workflow_dispatch' && inputs.live || github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write # publishes the evidence bundle to an evidence/* branch (never main)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -66,3 +68,17 @@ jobs:
             live-evidence/runs/**
             !live-evidence/runs/**/work/**
           retention-days: 30
+      - name: Publish the evidence bundle to a branch
+        if: always()
+        run: |
+          set -e
+          [ -d live-evidence/runs ] || { echo "::warning::no evidence produced"; exit 0; }
+          branch="evidence/live-${GITHUB_RUN_ID}"
+          rm -rf /tmp/evidence && mkdir /tmp/evidence
+          rsync -a --exclude work/ --exclude replay.json live-evidence/runs/ /tmp/evidence/
+          cd /tmp/evidence
+          git init -q -b "$branch"
+          git -c user.name="vsa-ci" -c user.email="vsa-ci@users.noreply.github.com" add -A
+          git -c user.name="vsa-ci" -c user.email="vsa-ci@users.noreply.github.com" commit -q -m "Live evidence from run ${GITHUB_RUN_ID} (${GITHUB_SHA})"
+          git push -q "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/$branch"
+          for f in */summary.md; do while IFS= read -r line; do echo "::notice title=live::$line"; done < "$f"; done
