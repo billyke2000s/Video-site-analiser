@@ -1,0 +1,81 @@
+== moviehub test_free_vod.py: 58 tests, OK
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_scrubs/scrape_sources.py:94: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace("\/", "/")
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_scrubs/scrape_sources.py:616: DeprecationWarning: invalid escape sequence '\/'
+  url = link.replace('\/', '/').replace('///', '//')
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_scrubs/source_utils.py:110: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace('\/', '/').replace('///', '//')
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_scrubs/source_utils.py:141: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace('\/', '/').replace('///', '//')
+./tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:37: DeprecationWarning: invalid escape sequence '\w'
+  title = re.sub('[^\w\%s]+' % sep, sep, title)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:38: DeprecationWarning: invalid escape sequence '\%'
+  title = re.sub('\%s{2,}' % sep, sep, title)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:61: DeprecationWarning: invalid escape sequence '\d'
+  title = re.sub('&#(\d+);', '', title)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:64: DeprecationWarning: invalid escape sequence '\|'
+  title = re.sub('\\\|/|-|–|:|;|!|\*|\?|"|\'|<|>|\|', '', title)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:75: DeprecationWarning: invalid escape sequence '\.'
+  title = title.translate(None, ':*?"\'\.<>|&!,')
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:77: DeprecationWarning: invalid escape sequence '\.'
+  title = title.translate(str.maketrans('', '', ':*?"\'\.<>|&!,'))
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:154: DeprecationWarning: invalid escape sequence '\w'
+  title = re.sub('[^\w\s]+', '', title)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/cleantitle.py:174: DeprecationWarning: invalid escape sequence '\w'
+  title = re.sub('[^\w\s]+', '', title)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/client_utils.py:124: DeprecationWarning: invalid escape sequence '\/'
+  txt = txt.replace("\/", "/")
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/dom_parser.py:16: DeprecationWarning: invalid escape sequence '\s'
+  tag = re.match('<([^\s/>]+)', match)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/dom_parser.py:45: DeprecationWarning: invalid escape sequence '\s'
+  pattern = '(<%s(?:\s[^>]*>|/?>))' % name
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/dom_parser.py:52: DeprecationWarning: invalid escape sequence '\s'
+  pattern = '''(<{tag}[^>]*\s{key}=(?P<delim>['"])(.*?)(?P=delim)[^>]*>)'''.format(tag=name, key=key)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/dom_parser.py:62: DeprecationWarning: invalid escape sequence '\s'
+  pattern = '''(<{tag}[^>]*\s{key}=((?:[^\s>]|/>)*)[^>]*>)'''.format(tag=name, key=key)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/dom_parser.py:78: DeprecationWarning: invalid escape sequence '\s'
+  for match in re.finditer('''\s+(?P<key>[^=]+)=\s*(?:(?P<delim>["'])(?P<value1>.*?)(?P=delim)|(?P<value2>[^"'][^>\s]*))''', element):
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/scrape_sources.py:101: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace("\/", "/")
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/scrape_sources.py:107: DeprecationWarning: invalid escape sequence '\s'
+  url = re.sub('\s+', '', url)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/scrape_sources.py:350: DeprecationWarning: invalid escape sequence '\.'
+  domain = re.findall('(?://|\.)(playerhost\.net|gomo\.to|gomostream\.com|gomoplayer\.com)/', link)[0]
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/scrape_sources.py:511: DeprecationWarning: invalid escape sequence '\s'
+  item_src = re.findall('src:\s*"([^"]+)"', item_html, re.DOTALL)[0]
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/scrape_sources.py:605: DeprecationWarning: invalid escape sequence '\/'
+  url = link.replace('\/', '/').replace('///', '//')
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:110: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace('\/', '/').replace('///', '//')
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:116: DeprecationWarning: invalid escape sequence '\.'
+  regex = "(?:www\.)?([\w\-]*\.[\w\-]{2,3}(?:\.[\w\-]{2,3})?)$"
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:141: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace('\/', '/').replace('///', '//')
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:145: DeprecationWarning: invalid escape sequence '\.'
+  res = re.search("(?:www\.)?([\w\-]*\.[\w\-]{2,3}(?:\.[\w\-]{2,3})?)$", domain)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:207: DeprecationWarning: invalid escape sequence '\d'
+  _size = re.findall('(\d+(?:\.|/,|)?\d+(?:\s+|)(?:gb|GiB|mb|MiB|GB|MB))', txt)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:283: DeprecationWarning: invalid escape sequence '\.'
+  _txt = re.sub('(.+)(\.|\(|\[|\s)(\d{4}|S\d*E\d*|S\d*)(\.|\)|\]|\s)', '', _txt)
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_free99/source_utils.py:284: DeprecationWarning: invalid escape sequence '\.'
+  _txt = re.split('\.|\(|\)|\[|\]|\s|-', _txt)
+............../tmp/vsa-moviehub-oar8lawl/python/moviehub_scrubs/providers/tvmovieflix_com.py:74: DeprecationWarning: invalid escape sequence '\/'
+  vlink = base64.b64decode(vlink.replace("\/", "/"))
+/tmp/vsa-moviehub-oar8lawl/python/moviehub_scrubs/providers/streamlord_com.py:100: DeprecationWarning: invalid escape sequence '\/'
+  url = url.replace('"', '').replace(',', '').replace('\/', '/')
+...........................................
+----------------------------------------------------------------------
+Ran 58 tests in 1.198s
+
+OK
+
+
+== generated test_native_archive_org: 3 tests, OK
+test_adapter_lists_every_distinct_recorded_file (test_native_archive_org.GeneratedArchiveOrgTests.test_adapter_lists_every_distinct_recorded_file) ... ok
+test_an_unknown_title_requests_no_detail_page (test_native_archive_org.GeneratedArchiveOrgTests.test_an_unknown_title_requests_no_detail_page) ... ok
+test_moviehub_query_site_accepts_the_verified_media (test_native_archive_org.GeneratedArchiveOrgTests.test_moviehub_query_site_accepts_the_verified_media) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.055s
+
+OK

@@ -1,0 +1,150 @@
+[
+  {
+    "step": "analyse",
+    "status": "ok",
+    "time": 1793030498.568,
+    "plugin": "recipe:archive_org",
+    "search_interfaces": 1,
+    "media_on_page": 0
+  },
+  {
+    "step": "search",
+    "status": "ok",
+    "time": 1793030499.411,
+    "results": [
+      {
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "title": "Night of the Living Dead",
+        "url": "https://archive.org/metadata/Night.Of.The.Living.Dead_1080p",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "title": "Night of the Living Dead",
+        "url": "https://archive.org/metadata/night_of_the_living_dead_dvd",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "Night_Of_The_Living_Dead_raw_HD_WS",
+        "title": "Night Of The Living Dead",
+        "url": "https://archive.org/metadata/Night_Of_The_Living_Dead_raw_HD_WS",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "NightOfTheLivingDead-MPEG",
+        "title": "Night Of The Living Dead",
+        "url": "https://archive.org/metadata/NightOfTheLivingDead-MPEG",
+        "year": "1968",
+        "extra": {}
+      },
+      {
+        "site": "archive.org",
+        "item_id": "PhantasmagoriaTheater-NightOfTheLivingDead1968321",
+        "title": "Night of the Living Dead (1968)",
+        "url": "https://archive.org/metadata/PhantasmagoriaTheater-NightOfTheLivingDead1968321",
+        "year": "",
+        "extra": {}
+      }
+    ]
+  },
+  {
+    "step": "select",
+    "status": "ok",
+    "time": 1793030499.411,
+    "selected": [
+      "Night.Of.The.Living.Dead_1080p",
+      "night_of_the_living_dead_dvd",
+      "Night_Of_The_Living_Dead_raw_HD_WS",
+      "NightOfTheLivingDead-MPEG",
+      "PhantasmagoriaTheater-NightOfTheLivingDead1968321"
+    ]
+  },
+  {
+    "step": "discover",
+    "status": "ok",
+    "time": 1793030504.482,
+    "candidates": 25
+  },
+  {
+    "step": "verify",
+    "status": "ok",
+    "time": 1793030554.804,
+    "playable": 6,
+    "total": 25,
+    "distinct_media": 25,
+    "statuses": [
+      "failed",
+      "playable"
+    ]
+  },
+  {
+    "step": "generate",
+    "status": "ok",
+    "time": 1793030554.806,
+    "files": {
+      "adapter": "adapter/android-tv-launcher/app/src/main/python/moviehub_native/archive_org.py",
+      "record": "adapter/provider_record.json",
+      "recipe": "adapter/recipe.json"
+    }
+  },
+  {
+    "step": "moviehub_query",
+    "status": "ok",
+    "time": 1793030572.813,
+    "mode": "live",
+    "moviehub_status": "complete",
+    "comparison": {
+      "analyser_playable": 6,
+      "moviehub_sources": 23,
+      "matched": 4
+    }
+  },
+  {
+    "step": "moviehub_tests",
+    "status": "ok",
+    "time": 1793030574.932,
+    "suites": [
+      {
+        "name": "moviehub test_free_vod.py",
+        "passed": true,
+        "summary": "58 tests, OK"
+      },
+      {
+        "name": "generated test_native_archive_org",
+        "passed": true,
+        "summary": "3 tests, OK"
+      }
+    ]
+  },
+  {
+    "step": "integration_patch",
+    "status": "ok",
+    "time": 1793030575.243,
+    "branch": "vsa/add-archive-org",
+    "patch": "moviehub-add-archive_org.patch",
+    "applied": [
+      "added moviehub_native.archive_org and its PROVIDERS record",
+      "FreeVodProvidersTest validate() 70 -> 71",
+      "FreeVodProvidersTest ids() 36 -> 37",
+      "self.assertEqual(len(everything), 65) -> 66",
+      "self.assertEqual(len({r['site'] for r in everything}), 65) -> 66",
+      "self.assertEqual(sum(len(r['adapters']) for r in everything), 68) -> 69",
+      "self.assertEqual(len(rows), 36) -> 37",
+      "self.assertEqual(sum(len(r['adapters']) for r in rows), 39) -> 40",
+      "self.assertEqual(vod.validate(), 70) -> 71",
+      "self.assertEqual(len(rows),70) -> 71",
+      "self.assertEqual(len({r['id'] for r in rows}),70) -> 71",
+      "imported the generated test into test_free_vod.py (CI runs only that file)"
+    ],
+    "manual": [
+      "documentation counts (TESTING.md, ARCHITECTURE.md, docs/FREE_VOD_AUDIT.md, CHANGELOG.md) are left for the owner to word"
+    ]
+  }
+]

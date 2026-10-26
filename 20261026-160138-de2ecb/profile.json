@@ -1,0 +1,136 @@
+{
+  "url": "https://archive.org/",
+  "site": "archive.org",
+  "plugin": "recipe:archive_org",
+  "page": {
+    "url": "https://archive.org/",
+    "final_url": "https://archive.org/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "title": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine",
+    "rendered": false,
+    "robots_allowed": true,
+    "structured_data": [],
+    "opengraph": {},
+    "navigation": [],
+    "search_interfaces": [],
+    "media_urls": [],
+    "iframes": [],
+    "script_count": 3,
+    "network_media": [],
+    "notes": []
+  },
+  "search_interfaces": [
+    {
+      "kind": "json_api",
+      "url_template": "https://archive.org/advancedsearch.php?q=title%3A%28{query}%29+AND+mediatype%3A%28movies%29&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=year&sort%5B%5D=downloads+desc&rows=25&output=json",
+      "method": "GET",
+      "evidence": "recipe archive_org"
+    }
+  ],
+  "recipe": {
+    "schema": 1,
+    "id": "archive_org",
+    "name": "Internet Archive",
+    "site": "archive.org",
+    "base": "https://archive.org",
+    "kind": "json_api",
+    "movies": true,
+    "series": false,
+    "notes": "Public Advanced Search and Metadata APIs. Lending-library (access-restricted) items, dark items and private files are skipped; nothing behind a login is requested.",
+    "match": {
+      "year_tolerance": 1,
+      "max_items": 5
+    },
+    "search": {
+      "url": "https://archive.org/advancedsearch.php",
+      "params": [
+        [
+          "q",
+          "title:({title|terms}) AND mediatype:(movies)"
+        ],
+        [
+          "fl[]",
+          "identifier"
+        ],
+        [
+          "fl[]",
+          "title"
+        ],
+        [
+          "fl[]",
+          "year"
+        ],
+        [
+          "sort[]",
+          "downloads desc"
+        ],
+        [
+          "rows",
+          "25"
+        ],
+        [
+          "output",
+          "json"
+        ]
+      ],
+      "results": "response.docs",
+      "fields": {
+        "id": "identifier",
+        "title": "title",
+        "year": "year"
+      }
+    },
+    "detail": {
+      "url": "https://archive.org/metadata/{id|path}",
+      "reject": [
+        {
+          "path": "metadata.access-restricted-item",
+          "values": [
+            "true",
+            true
+          ]
+        },
+        {
+          "path": "is_dark",
+          "values": [
+            "true",
+            true
+          ]
+        }
+      ],
+      "files": "files",
+      "fields": {
+        "name": "name",
+        "format": "format",
+        "size": "size",
+        "sha1": "sha1",
+        "md5": "md5",
+        "width": "width",
+        "height": "height",
+        "duration": "length",
+        "private": "private"
+      },
+      "include": {
+        "format": [
+          "MPEG4",
+          "h.264",
+          "h.264 IA",
+          "h.264 HD",
+          "512Kb MPEG4",
+          "HiRes MPEG4",
+          "Matroska",
+          "WebM"
+        ]
+      },
+      "exclude": {
+        "private": [
+          "true"
+        ]
+      },
+      "media_url": "https://archive.org/download/{id|path}/{name|path}",
+      "label": "{format} \u00b7 {name}",
+      "server": "archive.org"
+    }
+  }
+}

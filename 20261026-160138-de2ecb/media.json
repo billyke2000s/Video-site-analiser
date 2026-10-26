@@ -1,0 +1,1790 @@
+{
+  "reports": [
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "h.264 \u00b7 NightOfTheLivingDead.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead.mp4",
+          "format": "h.264",
+          "size": "596808390",
+          "sha1": "163f60d2e08c85f70edb42cdf28e6e8f503cf987",
+          "md5": "3b88e97fa57f74c01d26fc96fc3ae9a9",
+          "width": "640",
+          "height": "360",
+          "duration": "5753.46",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 596808390,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-cu02lrbk/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "6c7d575b2c3a081cd3a64835fe6e152b77841fd742e765f79ae18aba74f52ab5",
+        "size": "596808390"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn711006.ca.archive.org",
+        "final_url_sha256": "95d308c19b10ff6342d83a350a6580430a9cbdc969f1e428c08c4cf7b87421ae",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "h.264 \u00b7 NightOfTheLivingDead_1080p.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_1080p.mp4",
+          "format": "h.264",
+          "size": "597585042",
+          "sha1": "23cd24d9ab81f00f4a1f58f17f6a23a02d3238c2",
+          "md5": "a08d4ec095b4862fec884c9213eb8562",
+          "width": "640",
+          "height": "480",
+          "duration": "5752.8",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 597585042,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-me9duh8u/sample.bin: End of file"
+      ],
+      "fingerprint": {
+        "head_sha256": "78c2261763ecd57aae1438ac707d4a5f52da7a414ab2888b9ca9a6190c4cb38b",
+        "size": "597585042"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn711006.ca.archive.org",
+        "final_url_sha256": "897812b5f699c85338d08c038faa489402bbe6e052b92b75d9d3bfa3dfa6d21e",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_1080p_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_1080p_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "406935466",
+          "sha1": "74091ff664b94ab5a745a0d40edfc7e2ef02bac6",
+          "md5": "d8afccc7b453e1fca381ef606113eace",
+          "width": "320",
+          "height": "240",
+          "duration": "5752.7",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 406935466,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-08f7txh_/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "6fd28437075bf166e5432a701e3c018d1de4317c87029d92b4fd1ed056e67ef3",
+        "size": "406935466"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "b26124ebad4f30bc41cafad1016095011c88a30c05d79789dcfe3b5ad652b54f",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "h.264 \u00b7 NightOfTheLivingDead_720p.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_720p.mp4",
+          "format": "h.264",
+          "size": "597796730",
+          "sha1": "cd99a09b2e9518e83c7529416e43531134cbec84",
+          "md5": "e8a25cd2c0918aaff740f05244cebe3a",
+          "width": "640",
+          "height": "480",
+          "duration": "5752.8",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 597796730,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-b43ug1lk/sample.bin: End of file"
+      ],
+      "fingerprint": {
+        "head_sha256": "0466d38c984460d0514b9be69248579e0450f577d69255e74d80e95146bedd79",
+        "size": "597796730"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn711006.ca.archive.org",
+        "final_url_sha256": "2002a0bc3f07095a6b7800cb0fe9a0340e6e680de7e2894ace774e02b2586c73",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_720p_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_720p_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "406937525",
+          "sha1": "9a0eed03aa981ae6db21ba8adcafc078abf15ffb",
+          "md5": "468baa3e195759e6ab0f0f724085ec42",
+          "width": "320",
+          "height": "240",
+          "duration": "5752.7",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 406937525,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-i8wf64uv/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "921e819e9f70df90642e60b366569b8450a6888514bf7e075da86f2bc5fc2143",
+        "size": "406937525"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "ac90d4843778e36cbf7cd98019864d6629ad48cd78e29cb27dc403428fe1c4d9",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "h.264 \u00b7 NightOfTheLivingDead_DVD5.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_DVD5.mp4",
+          "format": "h.264",
+          "size": "597539008",
+          "sha1": "22fae2c6027525d75ec15c9006ae54979fa84a4f",
+          "md5": "523f6855b44d8fe029cfabab7a8c9ba7",
+          "width": "640",
+          "height": "480",
+          "duration": "5752.21",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 597539008,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-9lrtn87d/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "9892a821b029e792ec95e00f71e1d4c0ec83ab43c55980f24b399194bf68acdd",
+        "size": "597539008"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn711006.ca.archive.org",
+        "final_url_sha256": "3c64b77487742fc9220f809c9c84f81734b841035b540ef3ea109d8b4a6422d8",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_DVD5_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_DVD5_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "333938666",
+          "sha1": "bfd583b93eef561e996d596f7e61cba9d29d14a0",
+          "md5": "1f43b94c237ae85bf171bd4e0ff93cec",
+          "width": "320",
+          "height": "240",
+          "duration": "5752.11",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 333938666,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-oi94ldnu/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "8bf9cd75a5c95a6f43adeb6865e7e483b7b8d861dd4d83933358fb3dbedb46fc",
+        "size": "333938666"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "3732b99b2b0bf88f17f4544fb8715df5d2958d7c0034377c015186798c257699",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "h.264 \u00b7 NightOfTheLivingDead_DVD9.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_DVD9.mp4",
+          "format": "h.264",
+          "size": "597335829",
+          "sha1": "4dd2c8462163e308cfdbb118837bf1ba8b1e8889",
+          "md5": "58271a167d3e12390f1fb9866d5b5294",
+          "width": "640",
+          "height": "480",
+          "duration": "5752.25",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 597335829,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-zzobq200/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "075cf2cc12ee51320b56088a9f0d762b88f444965bd535e41ddea67e649d5e50",
+        "size": "597335829"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn711006.ca.archive.org",
+        "final_url_sha256": "fe45cef38d01441da9fa50039d3b92a93296dcbd33c278e210b1c3fc8f4303af",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_DVD9_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_DVD9_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "333943758",
+          "sha1": "7dae52e698ad5d52f17e5283842fed68b040dfcd",
+          "md5": "ec80c8c2aa46d1b270eb480078371491",
+          "width": "320",
+          "height": "240",
+          "duration": "5752.11",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 333943758,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-jl6jsgtn/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "b15d4bdd3329436a368714fd8b6010ce3dd5d02bc9b633db28217292898249a7",
+        "size": "333943758"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "904aa61d2156264908956fa2339c998d8c2657778e4d7a3af3ce8c7871e19255",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PS3_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_PS3_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_PS3_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "435564960",
+          "sha1": "94e68e3e66a22cc950c43d98a208098b1b4afa02",
+          "md5": "34c5db8fb881ea21a77e77ea3f7fe391",
+          "width": "427",
+          "height": "240",
+          "duration": "5752.81",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 435564960,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-lxwye_z1/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "58d638d6376f4b9f9600a862ff02c5f8c37780f7ebb406d9379aa40306a8fac0",
+        "size": "435564960"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PS3_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "50cebdfe4f6af6a79e09f4d0243393dc25fc58b04c99fd438bf84cbf10591153",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PSP_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_PSP_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_PSP_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "434316381",
+          "sha1": "56729a2b3aaa2c558b6a90d060a0460a94bca7a5",
+          "md5": "cc5bdfe800a5c7d78864f3224a0d3f92",
+          "width": "314",
+          "height": "240",
+          "duration": "5752.81",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 434316381,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-wrbxpsir/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "e34f16bfeecfe60b63cf2a06f0f51510eb37278439c8c138da1f5ecd701b07e6",
+        "size": "434316381"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PSP_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "2eeb237644637817bb4fc3311322b6caf3dc1edcf48c10a647e81adcc2f58157",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPhone_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_iPhone_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_iPhone_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "434295401",
+          "sha1": "3d7b15fd2e1e6534cd6f45092540a5ccba7f0f02",
+          "md5": "2447c1271b540459012523857ec108b1",
+          "width": "320",
+          "height": "240",
+          "duration": "5752.81",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 434295401,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-8cnh7daw/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "62a89be9eb2222dcd584048c4a2916428b7eee29ad813ec0efbe3f37db09c34c",
+        "size": "434295401"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPhone_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "4b5aadf5d96662bdcb6ba6b59381e168997ef05f6abd8c70bd9565395d524b64",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPod_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "Night.Of.The.Living.Dead_1080p",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_iPod_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_iPod_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "435541208",
+          "sha1": "6bfd5305a7a16644a8be7238cf6d1688e9db235c",
+          "md5": "b2da5016381fd71ff8e6deffcd29802e",
+          "width": "320",
+          "height": "240",
+          "duration": "5752.81",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 435541208,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-zyjoi8i8/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "4a776d2dedf22d7ee09b16d038196adecfacf4adc2c154a9cffa25c8cf32906d",
+        "size": "435541208"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPod_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn801208.us.archive.org",
+        "final_url_sha256": "1d6349795da988ab25a062d753a724bc1654d96ef3ef54828e78ffaa2bb36b8f",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/Night.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "h.264 \u00b7 Night.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "Night.mp4",
+          "format": "h.264",
+          "size": "596399542",
+          "sha1": "cb11684acc8a2e42de05ad9f8eb960dfbb6d07ff",
+          "md5": "97128daa91e4c4d88e49ab5df3d330d3",
+          "width": "640",
+          "height": "480",
+          "duration": "5731.83",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 596399542,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-3001p_ol/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "3deae05af8bd39b344ccfed126a0932cddb3f2a9a91e5e17c9fa50e22df4475d",
+        "size": "596399542"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/Night.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn710704.ca.archive.org",
+        "final_url_sha256": "a978089fe3cbe14951520fc722e15133b36587bbc589eec047079ec72df8f186",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VIDEO_TS.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "h.264 \u00b7 VIDEO_TS.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VIDEO_TS.mp4",
+          "format": "h.264",
+          "size": "879152",
+          "sha1": "fe5f2ad31e6aebce0eb3fa6a587333e49949bbb7",
+          "md5": "7f447dd678d2312290873508006fb5c3",
+          "width": "640",
+          "height": "480",
+          "duration": "10.01",
+          "quality": "480p"
+        }
+      },
+      "status": "playable",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "",
+      "width": 640,
+      "height": 480,
+      "duration": 10.01001,
+      "bitrate": 702618,
+      "size": 879152,
+      "variants": [],
+      "decoded_frames": 60,
+      "encrypted": false,
+      "errors": [],
+      "fingerprint": {
+        "head_sha256": "3f01cb426e8ae38e189f3e32b400727928c3f34211acc7198b73f4fa6a331429",
+        "size": "879152"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VIDEO_TS.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn800308.us.archive.org",
+        "final_url_sha256": "b70f3424a0fa6eb721ff337b36a182c347bfe4efcd813a3f0d55e3fc158fb89a",
+        "mp4_boxes": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "decode": {
+          "seconds": 2.0,
+          "frames": 60,
+          "error": ""
+        }
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VIDEO_TS_512Kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "512Kb MPEG4 \u00b7 VIDEO_TS_512Kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VIDEO_TS_512Kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "721545",
+          "sha1": "6b26cd214b5e18384fea3e7394d04f4c6dd1a0e7",
+          "md5": "1ab67577e9dcbb32b84938bded3f8fbc",
+          "width": "320",
+          "height": "240",
+          "duration": "10.01",
+          "quality": "SD"
+        }
+      },
+      "status": "playable",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "",
+      "width": 320,
+      "height": 240,
+      "duration": 10.01,
+      "bitrate": 576659,
+      "size": 721545,
+      "variants": [],
+      "decoded_frames": 60,
+      "encrypted": false,
+      "errors": [],
+      "fingerprint": {
+        "head_sha256": "d7c295495fcb48d339060a88c9da1b4e9387b21266dfa74ba4262eb795311127",
+        "size": "721545"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VIDEO_TS_512Kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn800308.us.archive.org",
+        "final_url_sha256": "be681ac48674a9097c556b960a9896a8771264be25f91fc218903175e3c5eab2",
+        "mp4_boxes": [
+          "ftyp",
+          "moov",
+          "mdat"
+        ],
+        "decode": {
+          "seconds": 2.0,
+          "frames": 60,
+          "error": ""
+        }
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_1.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "h.264 \u00b7 VTS_01_1.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VTS_01_1.mp4",
+          "format": "h.264",
+          "size": "262619874",
+          "sha1": "2ab46006b0d71e6634554f82cce6fbcc350efb23",
+          "md5": "b88a62700aeaf405b6b2c96861173f7b",
+          "width": "640",
+          "height": "480",
+          "duration": "2519.89",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 262619874,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-8djk36_2/sample.bin: End of file"
+      ],
+      "fingerprint": {
+        "head_sha256": "31ed807cb00c0dca9e250f4206c1900d9217337c5c848cbc7e164dac0bc64a08",
+        "size": "262619874"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_1.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn800308.us.archive.org",
+        "final_url_sha256": "79f7c3b9f96219a79d0e3fe98a3d973214382b0414cf0f375a2a2c7597332c75",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_1_512Kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "512Kb MPEG4 \u00b7 VTS_01_1_512Kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VTS_01_1_512Kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "192671444",
+          "sha1": "6a044059537c5713f38f60b8762de458cf58cb98",
+          "md5": "96cfcab8b89d4d1d6ff93100bed1500b",
+          "width": "320",
+          "height": "240",
+          "duration": "2519.88",
+          "quality": "SD"
+        }
+      },
+      "status": "playable",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 320,
+      "height": 240,
+      "duration": 2519.886544,
+      "bitrate": 6657,
+      "size": 192671444,
+      "variants": [],
+      "decoded_frames": 60,
+      "encrypted": false,
+      "errors": [],
+      "fingerprint": {
+        "head_sha256": "c2d1696ea28b18e7931dcf590f95d433d63183612fae876ba60039e033f518e0",
+        "size": "192671444"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_1_512Kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn710704.ca.archive.org",
+        "final_url_sha256": "5a36432cdf883b09c56832c51790676bda32344cbfe44f571b34abf3abed3b8d",
+        "mp4_boxes": [
+          "ftyp",
+          "moov",
+          "mdat"
+        ],
+        "decode": {
+          "seconds": 2.0,
+          "frames": 60,
+          "error": ""
+        }
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_2.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "h.264 \u00b7 VTS_01_2.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VTS_01_2.mp4",
+          "format": "h.264",
+          "size": "264385830",
+          "sha1": "204c3893862075ee713fe8ebf0a5b599f3d860e2",
+          "md5": "892a29878e5a93d9a85633bc09984dbe",
+          "width": "640",
+          "height": "480",
+          "duration": "2535.54",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 264385830,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-hdu1a_d0/sample.bin: End of file"
+      ],
+      "fingerprint": {
+        "head_sha256": "493eadafa45c8ad0c245ae95ab2c48949f854b9d31f7338652a7921a097626cd",
+        "size": "264385830"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_2.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn710704.ca.archive.org",
+        "final_url_sha256": "30bb2f0f0a969ea25da63ab79fbefcddabbfbe86d6ef6fc2316ec136a77bec2d",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_2_512Kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "512Kb MPEG4 \u00b7 VTS_01_2_512Kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VTS_01_2_512Kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "193928396",
+          "sha1": "0a42b76a9b095493b46ca0b7c5697f6d5e216f6f",
+          "md5": "265e4a3befdd514a76916df9c3c0e955",
+          "width": "320",
+          "height": "240",
+          "duration": "2535.53",
+          "quality": "SD"
+        }
+      },
+      "status": "playable",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 320,
+      "height": 240,
+      "duration": 2535.535533,
+      "bitrate": 6616,
+      "size": 193928396,
+      "variants": [],
+      "decoded_frames": 60,
+      "encrypted": false,
+      "errors": [],
+      "fingerprint": {
+        "head_sha256": "59f46fd53c90808e5ea9c6630cfaa0554b8d9f246f282e5a8eaf9fb6c4d9e7a4",
+        "size": "193928396"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_2_512Kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn710704.ca.archive.org",
+        "final_url_sha256": "455ff5dbc246321afe6497212c7354e6c87cb36e17e83808cee1869be8637768",
+        "mp4_boxes": [
+          "ftyp",
+          "moov",
+          "mdat"
+        ],
+        "decode": {
+          "seconds": 2.0,
+          "frames": 60,
+          "error": ""
+        }
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_3.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "h.264 \u00b7 VTS_01_3.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VTS_01_3.mp4",
+          "format": "h.264",
+          "size": "68807560",
+          "sha1": "16494c1a73afbc762ff6c1ecf4f4fe282620bdd6",
+          "md5": "f6d3445ffe7afb4c3c36b8dc13504a0a",
+          "width": "640",
+          "height": "480",
+          "duration": "661.76",
+          "quality": "480p"
+        }
+      },
+      "status": "playable",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 640,
+      "height": 480,
+      "duration": 661.761762,
+      "bitrate": 25352,
+      "size": 68807560,
+      "variants": [],
+      "decoded_frames": 60,
+      "encrypted": false,
+      "errors": [],
+      "fingerprint": {
+        "head_sha256": "d50f84b782eb4aa7bf142cccb7d089b59507b6dcc7b48e06bf6f2658909adaad",
+        "size": "68807560"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_3.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn710704.ca.archive.org",
+        "final_url_sha256": "9366065323d14d2daada85f52f36b51e5846e2e42af94334fa83e0f9e30e7f99",
+        "mp4_boxes": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "decode": {
+          "seconds": 2.0,
+          "frames": 60,
+          "error": ""
+        }
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_3_512Kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "night_of_the_living_dead_dvd",
+        "label": "512Kb MPEG4 \u00b7 VTS_01_3_512Kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "VTS_01_3_512Kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "50600259",
+          "sha1": "ac525cf479bb78d930e70625d666d8472e426ba8",
+          "md5": "f632bc4daeb3b04e5a7f847514b3b50a",
+          "width": "320",
+          "height": "240",
+          "duration": "661.76",
+          "quality": "SD"
+        }
+      },
+      "status": "playable",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 320,
+      "height": 240,
+      "duration": 661.761756,
+      "bitrate": 25352,
+      "size": 50600259,
+      "variants": [],
+      "decoded_frames": 60,
+      "encrypted": false,
+      "errors": [],
+      "fingerprint": {
+        "head_sha256": "f599b3d9a4f712775ff6bda40f0466524458a7ae31cdf15a3621607f5ca05252",
+        "size": "50600259"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_3_512Kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn710704.ca.archive.org",
+        "final_url_sha256": "50103b377a5b0dccaec3ce3e6fb93668cd802166891fa4433c2f21eac3a71e59",
+        "mp4_boxes": [
+          "ftyp",
+          "moov",
+          "mdat"
+        ],
+        "decode": {
+          "seconds": 2.0,
+          "frames": 60,
+          "error": ""
+        }
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/NightOfTheLivingDead-MPEG/NightOfTheLivingDead.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "NightOfTheLivingDead-MPEG",
+        "label": "h.264 \u00b7 NightOfTheLivingDead.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead.mp4",
+          "format": "h.264",
+          "size": "598512838",
+          "sha1": "1e3a16721b1a18d3f927a988a5b67e7e2541b901",
+          "md5": "02e9e2365c690afd2e3dd2ec8cc0ba1b",
+          "width": "640",
+          "height": "480",
+          "duration": "5744.97",
+          "quality": "480p"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 598512838,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-bkyh4uwp/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "74e37175c17d3015a1dd71461435c2e230c0281c65eff2aaa230249f9b470b73",
+        "size": "598512838"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/NightOfTheLivingDead-MPEG/NightOfTheLivingDead.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn711104.ca.archive.org",
+        "final_url_sha256": "88a2a491f3de7f6af56bb5ac4f7f0b5b997ab54ecaad78085a41715b04b986da",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/NightOfTheLivingDead-MPEG/NightOfTheLivingDead_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "NightOfTheLivingDead-MPEG",
+        "label": "512Kb MPEG4 \u00b7 NightOfTheLivingDead_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "NightOfTheLivingDead_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "417489001",
+          "sha1": "5cbc3ec170405cd954c6f3c341bbc3ee44cc0e4b",
+          "md5": "9180d6ec7cec982ef89e5adaca090a4c",
+          "width": "320",
+          "height": "240",
+          "duration": "5744.97",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 417489001,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-kj_jwop7/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "1bcb8a21098b4d7304224209258e58ad47ca396c333b6a13619b9ad0bd05ce2a",
+        "size": "417489001"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/NightOfTheLivingDead-MPEG/NightOfTheLivingDead_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn600306.us.archive.org",
+        "final_url_sha256": "ccc04bf8d5e79114be0c06b427e624fc8085d00833ca87c7e4bc45f063ca7faf",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "url": "https://archive.org/download/PhantasmagoriaTheater-NightOfTheLivingDead1968321/PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4",
+        "kind": "progressive",
+        "site": "archive.org",
+        "item_id": "PhantasmagoriaTheater-NightOfTheLivingDead1968321",
+        "label": "512Kb MPEG4 \u00b7 PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4",
+        "server": "archive.org",
+        "headers": {
+          "Referer": "https://archive.org/"
+        },
+        "declared": {
+          "name": "PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4",
+          "format": "512Kb MPEG4",
+          "size": "416743288",
+          "sha1": "160393312052f74e8232761f62a28aea345dc045",
+          "md5": "c9e27a78a28a98724f18fe9d6652c0ff",
+          "width": "320",
+          "height": "240",
+          "duration": "5740.5",
+          "quality": "SD"
+        }
+      },
+      "status": "failed",
+      "container": "mp4",
+      "video_codec": "",
+      "audio_codec": "",
+      "width": 0,
+      "height": 0,
+      "duration": null,
+      "bitrate": 0,
+      "size": 416743288,
+      "variants": [],
+      "decoded_frames": 0,
+      "encrypted": false,
+      "errors": [
+        "RuntimeError: ffprobe: /tmp/vsa-media-tsr21bp0/sample.bin: Invalid data found when processing input"
+      ],
+      "fingerprint": {
+        "head_sha256": "af72f22f2598861ec5da6814fb61868f6738abf988dd60c4d4fc3f63c40efd6d",
+        "size": "416743288"
+      },
+      "evidence": {
+        "url": "https://archive.org/download/PhantasmagoriaTheater-NightOfTheLivingDead1968321/PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4",
+        "range_supported": true,
+        "content_type": "video/mp4",
+        "final_host": "dn601201.us.archive.org",
+        "final_url_sha256": "97a29384df2bc6da13122b37ec24272ee351028bcc189acc8e8f09d8f2af79dd",
+        "mp4_boxes": [
+          "ftyp",
+          "moov"
+        ]
+      }
+    }
+  ],
+  "groups": [
+    {
+      "media_id": "sha1:163f60d2e08c85f70edb42cdf28e6e8f503cf987",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:6c7d575b2c3a081cd3a64835fe6e152b77841fd742e765f79ae18aba74f52ab5:596808390",
+        "md5:3b88e97fa57f74c01d26fc96fc3ae9a9",
+        "sha1:163f60d2e08c85f70edb42cdf28e6e8f503cf987"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:23cd24d9ab81f00f4a1f58f17f6a23a02d3238c2",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:78c2261763ecd57aae1438ac707d4a5f52da7a414ab2888b9ca9a6190c4cb38b:597585042",
+        "md5:a08d4ec095b4862fec884c9213eb8562",
+        "sha1:23cd24d9ab81f00f4a1f58f17f6a23a02d3238c2"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:74091ff664b94ab5a745a0d40edfc7e2ef02bac6",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:6fd28437075bf166e5432a701e3c018d1de4317c87029d92b4fd1ed056e67ef3:406935466",
+        "md5:d8afccc7b453e1fca381ef606113eace",
+        "sha1:74091ff664b94ab5a745a0d40edfc7e2ef02bac6"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_1080p_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:cd99a09b2e9518e83c7529416e43531134cbec84",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:0466d38c984460d0514b9be69248579e0450f577d69255e74d80e95146bedd79:597796730",
+        "md5:e8a25cd2c0918aaff740f05244cebe3a",
+        "sha1:cd99a09b2e9518e83c7529416e43531134cbec84"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:9a0eed03aa981ae6db21ba8adcafc078abf15ffb",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:921e819e9f70df90642e60b366569b8450a6888514bf7e075da86f2bc5fc2143:406937525",
+        "md5:468baa3e195759e6ab0f0f724085ec42",
+        "sha1:9a0eed03aa981ae6db21ba8adcafc078abf15ffb"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_720p_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:22fae2c6027525d75ec15c9006ae54979fa84a4f",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:9892a821b029e792ec95e00f71e1d4c0ec83ab43c55980f24b399194bf68acdd:597539008",
+        "md5:523f6855b44d8fe029cfabab7a8c9ba7",
+        "sha1:22fae2c6027525d75ec15c9006ae54979fa84a4f"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:bfd583b93eef561e996d596f7e61cba9d29d14a0",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:8bf9cd75a5c95a6f43adeb6865e7e483b7b8d861dd4d83933358fb3dbedb46fc:333938666",
+        "md5:1f43b94c237ae85bf171bd4e0ff93cec",
+        "sha1:bfd583b93eef561e996d596f7e61cba9d29d14a0"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD5_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:4dd2c8462163e308cfdbb118837bf1ba8b1e8889",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:075cf2cc12ee51320b56088a9f0d762b88f444965bd535e41ddea67e649d5e50:597335829",
+        "md5:58271a167d3e12390f1fb9866d5b5294",
+        "sha1:4dd2c8462163e308cfdbb118837bf1ba8b1e8889"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:7dae52e698ad5d52f17e5283842fed68b040dfcd",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:b15d4bdd3329436a368714fd8b6010ce3dd5d02bc9b633db28217292898249a7:333943758",
+        "md5:ec80c8c2aa46d1b270eb480078371491",
+        "sha1:7dae52e698ad5d52f17e5283842fed68b040dfcd"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_DVD9_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:94e68e3e66a22cc950c43d98a208098b1b4afa02",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:58d638d6376f4b9f9600a862ff02c5f8c37780f7ebb406d9379aa40306a8fac0:435564960",
+        "md5:34c5db8fb881ea21a77e77ea3f7fe391",
+        "sha1:94e68e3e66a22cc950c43d98a208098b1b4afa02"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PS3_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:56729a2b3aaa2c558b6a90d060a0460a94bca7a5",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:e34f16bfeecfe60b63cf2a06f0f51510eb37278439c8c138da1f5ecd701b07e6:434316381",
+        "md5:cc5bdfe800a5c7d78864f3224a0d3f92",
+        "sha1:56729a2b3aaa2c558b6a90d060a0460a94bca7a5"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_PSP_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:3d7b15fd2e1e6534cd6f45092540a5ccba7f0f02",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:62a89be9eb2222dcd584048c4a2916428b7eee29ad813ec0efbe3f37db09c34c:434295401",
+        "md5:2447c1271b540459012523857ec108b1",
+        "sha1:3d7b15fd2e1e6534cd6f45092540a5ccba7f0f02"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPhone_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:6bfd5305a7a16644a8be7238cf6d1688e9db235c",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:4a776d2dedf22d7ee09b16d038196adecfacf4adc2c154a9cffa25c8cf32906d:435541208",
+        "md5:b2da5016381fd71ff8e6deffcd29802e",
+        "sha1:6bfd5305a7a16644a8be7238cf6d1688e9db235c"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPod_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:cb11684acc8a2e42de05ad9f8eb960dfbb6d07ff",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:3deae05af8bd39b344ccfed126a0932cddb3f2a9a91e5e17c9fa50e22df4475d:596399542",
+        "md5:97128daa91e4c4d88e49ab5df3d330d3",
+        "sha1:cb11684acc8a2e42de05ad9f8eb960dfbb6d07ff"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/Night.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:fe5f2ad31e6aebce0eb3fa6a587333e49949bbb7",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:3f01cb426e8ae38e189f3e32b400727928c3f34211acc7198b73f4fa6a331429:879152",
+        "md5:7f447dd678d2312290873508006fb5c3",
+        "sha1:fe5f2ad31e6aebce0eb3fa6a587333e49949bbb7"
+      ],
+      "related": [
+        "sha1:6b26cd214b5e18384fea3e7394d04f4c6dd1a0e7"
+      ],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VIDEO_TS.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:6b26cd214b5e18384fea3e7394d04f4c6dd1a0e7",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:d7c295495fcb48d339060a88c9da1b4e9387b21266dfa74ba4262eb795311127:721545",
+        "md5:1ab67577e9dcbb32b84938bded3f8fbc",
+        "sha1:6b26cd214b5e18384fea3e7394d04f4c6dd1a0e7"
+      ],
+      "related": [
+        "sha1:fe5f2ad31e6aebce0eb3fa6a587333e49949bbb7"
+      ],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VIDEO_TS_512Kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:2ab46006b0d71e6634554f82cce6fbcc350efb23",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:31ed807cb00c0dca9e250f4206c1900d9217337c5c848cbc7e164dac0bc64a08:262619874",
+        "md5:b88a62700aeaf405b6b2c96861173f7b",
+        "sha1:2ab46006b0d71e6634554f82cce6fbcc350efb23"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_1.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:6a044059537c5713f38f60b8762de458cf58cb98",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:c2d1696ea28b18e7931dcf590f95d433d63183612fae876ba60039e033f518e0:192671444",
+        "md5:96cfcab8b89d4d1d6ff93100bed1500b",
+        "sha1:6a044059537c5713f38f60b8762de458cf58cb98"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_1_512Kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:204c3893862075ee713fe8ebf0a5b599f3d860e2",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:493eadafa45c8ad0c245ae95ab2c48949f854b9d31f7338652a7921a097626cd:264385830",
+        "md5:892a29878e5a93d9a85633bc09984dbe",
+        "sha1:204c3893862075ee713fe8ebf0a5b599f3d860e2"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_2.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:0a42b76a9b095493b46ca0b7c5697f6d5e216f6f",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:59f46fd53c90808e5ea9c6630cfaa0554b8d9f246f282e5a8eaf9fb6c4d9e7a4:193928396",
+        "md5:265e4a3befdd514a76916df9c3c0e955",
+        "sha1:0a42b76a9b095493b46ca0b7c5697f6d5e216f6f"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_2_512Kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:16494c1a73afbc762ff6c1ecf4f4fe282620bdd6",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:d50f84b782eb4aa7bf142cccb7d089b59507b6dcc7b48e06bf6f2658909adaad:68807560",
+        "md5:f6d3445ffe7afb4c3c36b8dc13504a0a",
+        "sha1:16494c1a73afbc762ff6c1ecf4f4fe282620bdd6"
+      ],
+      "related": [
+        "sha1:ac525cf479bb78d930e70625d666d8472e426ba8"
+      ],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_3.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:ac525cf479bb78d930e70625d666d8472e426ba8",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:f599b3d9a4f712775ff6bda40f0466524458a7ae31cdf15a3621607f5ca05252:50600259",
+        "md5:f632bc4daeb3b04e5a7f847514b3b50a",
+        "sha1:ac525cf479bb78d930e70625d666d8472e426ba8"
+      ],
+      "related": [
+        "sha1:16494c1a73afbc762ff6c1ecf4f4fe282620bdd6"
+      ],
+      "members": [
+        "https://archive.org/download/night_of_the_living_dead_dvd/VTS_01_3_512Kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:1e3a16721b1a18d3f927a988a5b67e7e2541b901",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:74e37175c17d3015a1dd71461435c2e230c0281c65eff2aaa230249f9b470b73:598512838",
+        "md5:02e9e2365c690afd2e3dd2ec8cc0ba1b",
+        "sha1:1e3a16721b1a18d3f927a988a5b67e7e2541b901"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/NightOfTheLivingDead-MPEG/NightOfTheLivingDead.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:5cbc3ec170405cd954c6f3c341bbc3ee44cc0e4b",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:1bcb8a21098b4d7304224209258e58ad47ca396c333b6a13619b9ad0bd05ce2a:417489001",
+        "md5:9180d6ec7cec982ef89e5adaca090a4c",
+        "sha1:5cbc3ec170405cd954c6f3c341bbc3ee44cc0e4b"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/NightOfTheLivingDead-MPEG/NightOfTheLivingDead_512kb.mp4"
+      ]
+    },
+    {
+      "media_id": "sha1:160393312052f74e8232761f62a28aea345dc045",
+      "sites": [
+        "archive.org"
+      ],
+      "cross_site": false,
+      "evidence": [
+        "head:af72f22f2598861ec5da6814fb61868f6738abf988dd60c4d4fc3f63c40efd6d:416743288",
+        "md5:c9e27a78a28a98724f18fe9d6652c0ff",
+        "sha1:160393312052f74e8232761f62a28aea345dc045"
+      ],
+      "related": [],
+      "members": [
+        "https://archive.org/download/PhantasmagoriaTheater-NightOfTheLivingDead1968321/PhantasmagoriaTheater-NightOfTheLivingDead1968321_512kb.mp4"
+      ]
+    }
+  ]
+}

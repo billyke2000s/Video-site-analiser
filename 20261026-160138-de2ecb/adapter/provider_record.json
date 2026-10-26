@@ -1,0 +1,9 @@
+{
+  "id": "native:archive_org",
+  "module": "moviehub_native.archive_org",
+  "family": "native",
+  "name": "archive_org",
+  "site": "archive.org",
+  "movies": true,
+  "series": false
+}
