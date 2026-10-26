@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Also run the live archive.org end-to-end test"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: MovieHub checkout (read-only integration target)
+        uses: actions/checkout@v4
+        with:
+          repository: billyke2000s/moviehub
+          path: moviehub
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11" # MovieHub's Chaquopy runtime
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+      - run: python -m pip install -e ".[render,moviehub]"
+      - name: Offline and local-fixture tests
+        env:
+          MOVIEHUB_CHECKOUT: ${{ github.workspace }}/moviehub
+          VSA_CHROME: /usr/bin/google-chrome
+        run: python -m unittest discover -s tests -t tests -v
+
+  live:
+    # Contacts archive.org: run on demand and on pushes to main only.
+    if: github.event_name == 'workflow_dispatch' && inputs.live || github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: billyke2000s/moviehub
+          path: moviehub
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+      - run: python -m pip install -e ".[moviehub]"
+      - name: Live archive.org end-to-end
+        env:
+          VSA_LIVE: "1"
+          VSA_LIVE_OUT: ${{ github.workspace }}/live-evidence
+          MOVIEHUB_CHECKOUT: ${{ github.workspace }}/moviehub
+        run: python -m unittest discover -s tests -t tests -p test_live_archive.py -v
+      - name: Keep the evidence bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-evidence
+          path: |
+            live-evidence/runs/**
+            !live-evidence/runs/**/work/**
+          retention-days: 30

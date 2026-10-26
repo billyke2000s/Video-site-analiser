@@ -1,0 +1,14 @@
+{
+  "sites": [
+    {
+      "domain": "archive.org",
+      "reason": "Internet Archive: public-domain and openly licensed films; documented public search and metadata APIs. Restricted (lending) items are skipped.",
+      "include_subdomains": true,
+      "extra_hosts": [],
+      "rate_per_second": 1.0,
+      "respect_robots": true,
+      "allow_http": false,
+      "allow_private_network": false
+    }
+  ]
+}

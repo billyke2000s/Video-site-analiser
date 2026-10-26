@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-site-analyser"
+version = "0.1.0"
+description = "Plugin-based website analyser that verifies media and generates MovieHub provider adapters"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+# Same pinned HTTP library as MovieHub's Chaquopy runtime, so generated adapters run unchanged.
+dependencies = ["requests==2.32.5"]
+
+[project.optional-dependencies]
+# JavaScript rendering is an optional capability.
+render = ["playwright>=1.45"]
+# MovieHub's bundled Python code also imports six.
+moviehub = ["six==1.17.0"]
+
+[project.scripts]
+vsa = "vsa.cli:main"
+
+# Third-party packages register site plugins under the "vsa.plugins" entry-point group.
+
+[tool.setuptools.packages.find]
+include = ["vsa*"]
+
+[tool.setuptools.package-data]
+"vsa" = ["recipes/*.json", "web/static/*", "permissions.default.json"]

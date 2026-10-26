@@ -1,0 +1,6 @@
+__pycache__/
+*.egg-info/
+/vsa-data/
+/live-evidence/
+tests/.fixture-media/
+.venv/

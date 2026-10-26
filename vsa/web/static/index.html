@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Video Site Analyser</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body data-token="{{TOKEN}}">
+<header>
+  <h1>Video Site Analyser</h1>
+  <p class="sub">Analyse a permitted site, verify its media, and generate a MovieHub adapter.</p>
+</header>
+<main>
+  <section id="analyse-section">
+    <h2><span class="n">1</span> Analyse a website</h2>
+    <form id="analyse-form" class="row">
+      <input id="url" type="url" required placeholder="https://archive.org/" value="https://archive.org/">
+      <button type="submit">Analyse</button>
+    </form>
+    <div id="profile" class="panel hidden"></div>
+  </section>
+
+  <section id="search-section" class="hidden">
+    <h2><span class="n">2</span> Search</h2>
+    <form id="search-form" class="row">
+      <input id="query" required placeholder="Title" value="Night of the Living Dead">
+      <input id="year" class="short" placeholder="Year" value="1968" inputmode="numeric">
+      <button type="submit">Search</button>
+    </form>
+    <div id="results" class="panel hidden"></div>
+  </section>
+
+  <section id="media-section" class="hidden">
+    <h2><span class="n">3</span> Media and verification</h2>
+    <div id="media"></div>
+    <div id="groups" class="panel hidden"></div>
+  </section>
+
+  <section id="generate-section" class="hidden">
+    <h2><span class="n">4</span> MovieHub adapter</h2>
+    <form id="generate-form" class="row">
+      <input id="adapter-id" placeholder="adapter id (optional)" pattern="[a-z][a-z0-9_]{1,40}">
+      <input id="moviehub" placeholder="MovieHub checkout path (uses the server default if empty)">
+      <button type="submit">Generate and test</button>
+    </form>
+    <div id="generate" class="panel hidden"></div>
+    <div class="row review-run">
+      <button class="good" data-verdict="working" data-target="run">Working</button>
+      <button class="bad" data-verdict="wrong" data-target="run">Something's wrong</button>
+    </div>
+    <div id="diagnosis" class="panel hidden"></div>
+  </section>
+
+  <section id="batch-section">
+    <h2>Batch</h2>
+    <p class="hint">One line per site: <code>URL&#9;title&#9;year</code> (tab-separated). URLs without a title are analysed only.</p>
+    <textarea id="batch-lines" rows="4" placeholder="https://archive.org/	Night of the Living Dead	1968"></textarea>
+    <div class="row">
+      <button id="batch-add" type="button">Add to queue</button>
+      <label>Concurrency <input id="batch-concurrency" class="short" type="number" min="1" max="8" value="2"></label>
+      <button id="batch-start" type="button">Start</button>
+    </div>
+    <div id="batch" class="panel"></div>
+  </section>
+
+  <section id="permissions-section">
+    <h2>Site permissions</h2>
+    <p class="hint">Only listed sites (and their subdomains) are fetched, over HTTPS, honouring robots.txt.</p>
+    <div id="permissions"></div>
+    <form id="permit-form" class="row">
+      <input id="permit-domain" required placeholder="example.org">
+      <input id="permit-reason" required placeholder="Why this site may be analysed">
+      <button type="submit">Permit</button>
+    </form>
+  </section>
+</main>
+<div id="toast" role="status" class="hidden"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
